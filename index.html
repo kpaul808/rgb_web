@@ -8,7 +8,14 @@
 </head>
 <body>
 	<div id="maindiv">
+		<h1 id="red">0</h1>
+		<h1 id="green">0</h1>
+		<h1 id="blue">0</h1>
 		<button type="button" onclick="colorchange1()">CLick Me to Change Color</button>
+		<input onchange="changeRed()" type="range" id="Redslide" value="0" min="0" max="255">
+		<input onchange="changeGreen()" type="range" id="Greenslide" value="0" min="0" max="255">
+		<input onchange="changeBlue()" type="range" id="Blueslide" value="0" min="0" max="255">
+		<div id="slidecolor"></div>
 		<script type="text/javascript" src="js/index.js"></script>
 	</div>
 </body>

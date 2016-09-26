@@ -5,3 +5,8 @@ div#maindiv{
 	width: 100vw;
 	height: 100vh;
 }
+
+div#slidecolor{
+	height: 20vh;
+	width: 40vw;
+}
